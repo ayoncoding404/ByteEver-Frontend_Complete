@@ -1,0 +1,89 @@
+//....!!Feature Section!!....//
+
+.feat_dot {
+  font-size: 160px;
+  font-weight: 700;
+  //   line-height: 400px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: #f1f1f1;
+  color: #0000;
+
+  text-align: center;
+}
+
+.feat_sol {
+  display: flex;
+  position: relative;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 60px;
+  bottom: 76px;
+}
+
+
+.date_writer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.date {
+  font-size: 12px;
+  color: #565656;
+  display: flex;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.writer {
+  font-size: 12px;
+  color: #565656;
+  display: flex;
+  font-weight: 400;
+}
+
+.feat_para_black {
+  display: flex;
+  font-size: 26px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  font-weight: 500;
+  top: 10px;
+  line-height: 44px;
+}
+
+.feat_para_gray {
+  display: flex;
+  color: #565656;
+  font-size: 14px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  font-weight: 400;
+  top: 19px;
+  line-height: 28px;
+  padding-bottom: 40px;
+}
+
+.feat_button {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  right: 72px;
+ padding-bottom: 60px;
+}
+
+.feat_button_text {
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  font-weight: 500;
+  color: red;
+  left: 188px;
+  top: -2px;
+}

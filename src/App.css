@@ -1,7 +1,9 @@
-/* .App {
-  border-left: 2px solid #f4f4f4;
-  height: 6896px;
-  position: absolute;
-  left: 50%;
-} */
-
+.main-div{
+    display:grid; 
+    max-width: 100%;
+    
+}
+body{
+    overflow-x: hidden;
+    margin-bottom: 20px;
+}

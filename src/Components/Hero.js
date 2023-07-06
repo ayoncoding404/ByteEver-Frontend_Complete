@@ -1,10 +1,37 @@
 import React from "react";
-import '../Style/Hero.css'
-import{BiLogoFacebook, BiLogoTwitter, BiLogoLinkedin } from "react-icons/bi"
+// import '../Style/Hero.css'
+import { BiLogoFacebook, BiLogoTwitter, BiLogoLinkedin } from "react-icons/bi";
+import "../Styles/Hero.scss";
+import logo from "../Assets/logo.png";
 
 export const Hero = () => {
   return (
-    <div className="box">
+    <div className="container">
+      <div className="left-side">
+        <h1>We Are A WordPress Agency</h1>
+        <div className="logo">
+          <img src={logo} alt="mainLogo" />
+        </div>
+        <div className="socials">
+          <BiLogoFacebook />
+          <BiLogoTwitter />
+          <BiLogoLinkedin />
+        </div>
+      </div>
+      <div className="right-side">
+        <p className="para">
+          We specialize in crafting WordPress <br />
+          plugins and themes for online businesses.
+        </p>
+        <div className="menu">MENU</div>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;
+
+/* <div className="box">
       <div className="hero-wrapper">
         <div className="hero">
           <div className="overlap">
@@ -12,7 +39,7 @@ export const Hero = () => {
             <h1 className="text-wrapper">We Are A WordPress Agency</h1>
             <img className="logo" alt="Logo" src="logo.png" />
             <div className="black-BG" />
-            {/* <img className="strock-text" alt="Strock text" src="strock-text.png" /> */}
+            {/* <img className="strock-text" alt="Strock text" src="strock-text.png" /> }
             <div className="description">
               <p className="p">We specialize in crafting WordPress plugins and themes for online businesses.</p>
             </div>
@@ -32,7 +59,7 @@ export const Hero = () => {
                   <div className="overlap-group-2">
                     <div className="ellipse" />
                     {/* <img className="vector" alt="Vector" src="vector-3.png" />
-                    <img className="img" alt="Vector" src="vector-4.png" /> */}
+                    <img className="img" alt="Vector" src="vector-4.png" /> }
                     <div className="rectangle-3" />
                   </div>
                 </div>
@@ -43,8 +70,4 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
-};
-
-export default Hero;
+    </div> */

@@ -1,0 +1,49 @@
+//....!!JoinUs Section!!....//
+
+
+.join_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+}
+
+.team {
+  display: flex;
+  position: relative;
+  width: 550px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  left: 76px;
+  bottom: 86px;
+}
+
+.para_join {
+  display: flex;
+  text-align: center;
+  font-size: 47px;
+  font-weight: 600;
+  line-height: 60px;
+  bottom: 70px;
+  position: relative;
+  left: 10px;
+}
+
+.join_button_red {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  right: 90px;
+  bottom: 20px;
+}
+
+.join_button_text_red {
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  font-weight: 500;
+  color: #ff492a;
+  left: 200px;
+}
