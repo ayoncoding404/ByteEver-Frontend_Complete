@@ -1,0 +1,9 @@
+.main-div{
+    display:grid; 
+    max-width: 100%;
+    
+}
+body{
+    overflow-x: hidden;
+    margin-bottom: 20px;
+}
