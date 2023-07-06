@@ -1,0 +1,240 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;800&display=swap"); */
+
+.box {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.box .hero-wrapper {
+  border: 0px none;
+  height: 1047px;
+  overflow-x: hidden;
+  width: 1920px;
+}
+
+.box .hero {
+  height: 1047px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1922px;
+}
+
+.box .overlap {
+  height: 1047px;
+  position: relative;
+  width: 1920px;
+}
+
+.box .rectangle {
+  background-color: #f2f2f2;
+  height: 1000px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 960px;
+}
+
+.box .text-wrapper {
+  color: #151515;
+  /* font-family: "Roboto Slab-ExtraBold", Helvetica; */
+  font-size: 170px;
+  font-weight: 800;
+  left: 367px;
+  letter-spacing: 0;
+  line-height: 180px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  width: 1177px;
+  -webkit-text-stroke-width: 2.6px;
+  -webkit-text-stroke-color: #f2f2f2;
+  z-index: 2;
+}
+
+.box .logo {
+  height: 44px;
+  left: 321px;
+  position: absolute;
+  top: 30px;
+  width: 178px;
+}
+
+.box .black-BG {
+  background-color: #151515;
+  height: 1000px;
+  left: 960px;
+  position: absolute;
+  top: 0;
+  width: 960px;
+}
+
+.box .strock-text {
+  height: 1000px;
+  left: 960px;
+  position: absolute;
+  top: 0;
+  width: 960px;
+}
+
+.box .description {
+  height: 71px;
+  left: 1021px;
+  position: absolute;
+  top: 800px;
+  width: 401px;
+}
+
+.box .p {
+  color: #e7e7e7;
+  /* font-family: "Roboto Slab-Regular", Helvetica; */
+  font-size: 20px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 34px;
+  position: absolute;
+  top: 0;
+  width: 399px;
+}
+
+.box .social-icon {
+  display: grid;
+  height: 825px;
+  left:700px;
+  position:absolute;
+  top: 825px;
+  width: 200px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box .menu {
+  height: 30px;
+  left: 1501px;
+  position: absolute;
+  top: 37px;
+  width: 101px;
+}
+
+.box .div {
+  background-color: #ffffff;
+  border-radius: 2px;
+  height: 28px;
+  left: 83px;
+  position: absolute;
+  top: -4px;
+  transform: rotate(90deg);
+  width: 3px;
+}
+
+.box .rectangle-2 {
+  background-color: #ffffff;
+  border-radius: 2px;
+  height: 21px;
+  left: 87px;
+  position: absolute;
+  top: 9px;
+  transform: rotate(90deg);
+  width: 3px;
+}
+
+.box .text-wrapper-2 {
+  color: #ffffff;
+  /* font-family: "Roboto Slab-Medium", Helvetica; */
+  font-size: 16px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.box .arrow {
+  height: 90px;
+  left: 884px;
+  position: absolute;
+  top: 957px;
+  width: 151px;
+}
+
+.box .overlap-group {
+  height: 90px;
+  position: relative;
+}
+
+.box .group {
+  height: 90px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 151px;
+}
+
+.box .overlap-group-2 {
+  height: 90px;
+  position: relative;
+}
+
+.box .ellipse {
+  background-color: #ffffff;
+  border-radius: 45px;
+  height: 90px;
+  left: 31px;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+.box .vector {
+  height: 31px;
+  left: 107px;
+  position: absolute;
+  top: 13px;
+  width: 44px;
+}
+
+.box .img {
+  height: 31px;
+  left: 0;
+  position: absolute;
+  top: 13px;
+  width: 44px;
+}
+
+.box .rectangle-3 {
+  background-color: #f4f4f4;
+  height: 90px;
+  left: 76px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.box .rectangle-4 {
+  background-color: #ffffff;
+  border: 1.5px solid;
+  border-color: #959595;
+  border-radius: 30px;
+  height: 36px;
+  left: 65px;
+  position: absolute;
+  top: 13px;
+  width: 22px;
+}
+
+.box .rectangle-5 {
+  background-color: #151515;
+  border-radius: 2px;
+  height: 7px;
+  left: 75px;
+  position: absolute;
+  top: 30px;
+  width: 2px;
+}
